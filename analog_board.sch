@@ -52,7 +52,7 @@ L Device:C C?
 U 1 1 5C6E9F03
 P 4800 3300
 F 0 "C?" H 4915 3346 50  0000 L CNN
-F 1 "1n" H 4915 3255 50  0000 L CNN
+F 1 "10n" H 4915 3255 50  0000 L CNN
 F 2 "" H 4838 3150 50  0001 C CNN
 F 3 "~" H 4800 3300 50  0001 C CNN
 	1    4800 3300
@@ -257,14 +257,12 @@ Wire Wire Line
 	5800 2400 5800 3000
 Wire Wire Line
 	5800 3600 5800 3900
-Wire Wire Line
-	4000 3100 4800 3100
 $Comp
 L Device:R R?
 U 1 1 5C6F2163
 P 4400 3500
 F 0 "R?" V 4193 3500 50  0000 C CNN
-F 1 "1k5" V 4284 3500 50  0000 C CNN
+F 1 "680R" V 4284 3500 50  0000 C CNN
 F 2 "" V 4330 3500 50  0001 C CNN
 F 3 "~" H 4400 3500 50  0001 C CNN
 	1    4400 3500
@@ -276,78 +274,67 @@ Wire Wire Line
 	4550 3500 4800 3500
 Connection ~ 4800 3500
 $Comp
-L power:GND #PWR?
-U 1 1 5C6F3586
-P 4800 3100
-F 0 "#PWR?" H 4800 2850 50  0001 C CNN
-F 1 "GND" H 4805 2927 50  0000 C CNN
-F 2 "" H 4800 3100 50  0001 C CNN
-F 3 "" H 4800 3100 50  0001 C CNN
-	1    4800 3100
-	-1   0    0    1   
-$EndComp
-$Comp
 L SAMTEC-TSW-105-07-X-D:SAMTEC-TSW-105-07-X-D J301
 U 1 1 5C6F433E
-P 1700 8600
-F 0 "J301" H 2554 8967 50  0000 C CNN
-F 1 "SAMTEC-TSW-105-07-X-D" H 2554 8876 50  0000 C CNN
-F 2 "SAMTEC-TSW-105-07-X-D" H 1700 8600 50  0001 L BNN
-F 3 "TSW-105-07-G-D-LL" H 1700 8600 50  0001 L BNN
-F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 1700 8600 50  0001 L BNN "Field4"
-F 5 "None" H 1700 8600 50  0001 L BNN "Field5"
-F 6 "Samtec" H 1700 8600 50  0001 L BNN "Field6"
-F 7 "TSW-105-07-G-D-LL-ND" H 1700 8600 50  0001 L BNN "Field7"
-F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 1700 8600 50  0001 L BNN "Field8"
-	1    1700 8600
+P 1750 9950
+F 0 "J301" H 2604 10317 50  0000 C CNN
+F 1 "SAMTEC-TSW-105-07-X-D" H 2604 10226 50  0000 C CNN
+F 2 "SAMTEC-TSW-105-07-X-D" H 1750 9950 50  0001 L BNN
+F 3 "TSW-105-07-G-D-LL" H 1750 9950 50  0001 L BNN
+F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 1750 9950 50  0001 L BNN "Field4"
+F 5 "None" H 1750 9950 50  0001 L BNN "Field5"
+F 6 "Samtec" H 1750 9950 50  0001 L BNN "Field6"
+F 7 "TSW-105-07-G-D-LL-ND" H 1750 9950 50  0001 L BNN "Field7"
+F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 1750 9950 50  0001 L BNN "Field8"
+	1    1750 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC-TSW-105-07-X-D:SAMTEC-TSW-105-07-X-D J302
 U 1 1 5C6F4654
-P 5600 8600
-F 0 "J302" H 6454 8967 50  0000 C CNN
-F 1 "SAMTEC-TSW-105-07-X-D" H 6454 8876 50  0000 C CNN
-F 2 "SAMTEC-TSW-105-07-X-D" H 5600 8600 50  0001 L BNN
-F 3 "TSW-105-07-G-D-LL" H 5600 8600 50  0001 L BNN
-F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5600 8600 50  0001 L BNN "Field4"
-F 5 "None" H 5600 8600 50  0001 L BNN "Field5"
-F 6 "Samtec" H 5600 8600 50  0001 L BNN "Field6"
-F 7 "TSW-105-07-G-D-LL-ND" H 5600 8600 50  0001 L BNN "Field7"
-F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 5600 8600 50  0001 L BNN "Field8"
-	1    5600 8600
+P 5650 9950
+F 0 "J302" H 6504 10317 50  0000 C CNN
+F 1 "SAMTEC-TSW-105-07-X-D" H 6504 10226 50  0000 C CNN
+F 2 "SAMTEC-TSW-105-07-X-D" H 5650 9950 50  0001 L BNN
+F 3 "TSW-105-07-G-D-LL" H 5650 9950 50  0001 L BNN
+F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5650 9950 50  0001 L BNN "Field4"
+F 5 "None" H 5650 9950 50  0001 L BNN "Field5"
+F 6 "Samtec" H 5650 9950 50  0001 L BNN "Field6"
+F 7 "TSW-105-07-G-D-LL-ND" H 5650 9950 50  0001 L BNN "Field7"
+F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 5650 9950 50  0001 L BNN "Field8"
+	1    5650 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC-TSW-105-07-X-D:SAMTEC-TSW-105-07-X-D J303
 U 1 1 5C6F4A3E
-P 1700 11600
-F 0 "J303" H 2554 11967 50  0000 C CNN
-F 1 "SAMTEC-TSW-105-07-X-D" H 2554 11876 50  0000 C CNN
-F 2 "SAMTEC-TSW-105-07-X-D" H 1700 11600 50  0001 L BNN
-F 3 "TSW-105-07-G-D-LL" H 1700 11600 50  0001 L BNN
-F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 1700 11600 50  0001 L BNN "Field4"
-F 5 "None" H 1700 11600 50  0001 L BNN "Field5"
-F 6 "Samtec" H 1700 11600 50  0001 L BNN "Field6"
-F 7 "TSW-105-07-G-D-LL-ND" H 1700 11600 50  0001 L BNN "Field7"
-F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 1700 11600 50  0001 L BNN "Field8"
-	1    1700 11600
+P 1750 12950
+F 0 "J303" H 2604 13317 50  0000 C CNN
+F 1 "SAMTEC-TSW-105-07-X-D" H 2604 13226 50  0000 C CNN
+F 2 "SAMTEC-TSW-105-07-X-D" H 1750 12950 50  0001 L BNN
+F 3 "TSW-105-07-G-D-LL" H 1750 12950 50  0001 L BNN
+F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 1750 12950 50  0001 L BNN "Field4"
+F 5 "None" H 1750 12950 50  0001 L BNN "Field5"
+F 6 "Samtec" H 1750 12950 50  0001 L BNN "Field6"
+F 7 "TSW-105-07-G-D-LL-ND" H 1750 12950 50  0001 L BNN "Field7"
+F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 1750 12950 50  0001 L BNN "Field8"
+	1    1750 12950
 	1    0    0    -1  
 $EndComp
 $Comp
 L SAMTEC-TSW-105-07-X-D:SAMTEC-TSW-105-07-X-D J304
 U 1 1 5C6F4E34
-P 5600 11600
-F 0 "J304" H 6454 11967 50  0000 C CNN
-F 1 "SAMTEC-TSW-105-07-X-D" H 6454 11876 50  0000 C CNN
-F 2 "SAMTEC-TSW-105-07-X-D" H 5600 11600 50  0001 L BNN
-F 3 "TSW-105-07-G-D-LL" H 5600 11600 50  0001 L BNN
-F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5600 11600 50  0001 L BNN "Field4"
-F 5 "None" H 5600 11600 50  0001 L BNN "Field5"
-F 6 "Samtec" H 5600 11600 50  0001 L BNN "Field6"
-F 7 "TSW-105-07-G-D-LL-ND" H 5600 11600 50  0001 L BNN "Field7"
-F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 5600 11600 50  0001 L BNN "Field8"
-	1    5600 11600
+P 5650 12950
+F 0 "J304" H 6504 13317 50  0000 C CNN
+F 1 "SAMTEC-TSW-105-07-X-D" H 6504 13226 50  0000 C CNN
+F 2 "SAMTEC-TSW-105-07-X-D" H 5650 12950 50  0001 L BNN
+F 3 "TSW-105-07-G-D-LL" H 5650 12950 50  0001 L BNN
+F 4 "https://www.digikey.dk/product-detail/en/samtec-inc/TSW-105-07-G-D-LL/TSW-105-07-G-D-LL-ND/2685911?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5650 12950 50  0001 L BNN "Field4"
+F 5 "None" H 5650 12950 50  0001 L BNN "Field5"
+F 6 "Samtec" H 5650 12950 50  0001 L BNN "Field6"
+F 7 "TSW-105-07-G-D-LL-ND" H 5650 12950 50  0001 L BNN "Field7"
+F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 5650 12950 50  0001 L BNN "Field8"
+	1    5650 12950
 	1    0    0    -1  
 $EndComp
 Text Label 2800 3500 0    50   ~ 0
@@ -406,7 +393,6 @@ Current_ch1_out
 Wire Wire Line
 	4000 3500 3750 3500
 Connection ~ 4000 3500
-Connection ~ 4000 3100
 $Comp
 L Device:R R?
 U 1 1 5C70477D
@@ -519,17 +505,6 @@ F 3 "~" H 11350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5C71D62A
-P 12150 3300
-F 0 "C?" H 12265 3346 50  0000 L CNN
-F 1 "1n" H 12265 3255 50  0000 L CNN
-F 2 "" H 12188 3150 50  0001 C CNN
-F 3 "~" H 12150 3300 50  0001 C CNN
-	1    12150 3300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Reference_Voltage:LM385Z-1.2 D?
 U 1 1 5C71D631
 P 15350 4200
@@ -576,11 +551,6 @@ $EndComp
 Wire Wire Line
 	11350 3150 11350 3100
 Wire Wire Line
-	12150 3100 12150 3150
-Wire Wire Line
-	12150 3100 12850 3100
-Connection ~ 12150 3100
-Wire Wire Line
 	12550 3150 12850 3150
 Wire Wire Line
 	12850 3150 12850 3200
@@ -588,10 +558,6 @@ Wire Wire Line
 	12550 3450 12850 3450
 Wire Wire Line
 	12850 3450 12850 3400
-Wire Wire Line
-	12850 3500 12150 3500
-Wire Wire Line
-	12150 3500 12150 3450
 Wire Wire Line
 	11350 3500 11350 3450
 Wire Wire Line
@@ -728,52 +694,12 @@ Wire Wire Line
 	13150 2400 13150 3000
 Wire Wire Line
 	13150 3600 13150 3900
-Wire Wire Line
-	11350 3100 12150 3100
-$Comp
-L Device:R R?
-U 1 1 5C71D6A8
-P 11750 3500
-F 0 "R?" V 11543 3500 50  0000 C CNN
-F 1 "1k5" V 11634 3500 50  0000 C CNN
-F 2 "" V 11680 3500 50  0001 C CNN
-F 3 "~" H 11750 3500 50  0001 C CNN
-	1    11750 3500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11350 3500 11600 3500
-Wire Wire Line
-	11900 3500 12150 3500
-Connection ~ 12150 3500
-$Comp
-L power:GND #PWR?
-U 1 1 5C71D6B2
-P 12150 3100
-F 0 "#PWR?" H 12150 2850 50  0001 C CNN
-F 1 "GND" H 12155 2927 50  0000 C CNN
-F 2 "" H 12150 3100 50  0001 C CNN
-F 3 "" H 12150 3100 50  0001 C CNN
-	1    12150 3100
-	-1   0    0    1   
-$EndComp
 Text Label 10150 3500 0    50   ~ 0
 Current_sensor_2
 Wire Wire Line
 	14400 4050 14400 4100
 Wire Wire Line
 	14400 4400 14400 4500
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C71D6BB
-P 13650 4150
-F 0 "U?" H 13650 4517 50  0000 C CNN
-F 1 "LM324" H 13650 4426 50  0000 C CNN
-F 2 "" H 13600 4250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 13700 4350 50  0001 C CNN
-	1    13650 4150
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	14400 4050 14550 4050
 Wire Wire Line
@@ -786,17 +712,6 @@ Wire Wire Line
 Connection ~ 14400 4500
 Wire Wire Line
 	13350 3600 13350 4150
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5C71D6C9
-P 14350 3400
-F 0 "U?" H 14350 3767 50  0000 C CNN
-F 1 "LM324" H 14350 3676 50  0000 C CNN
-F 2 "" H 14300 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 14400 3600 50  0001 C CNN
-	2    14350 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13650 3300 14050 3300
 Wire Wire Line
@@ -807,13 +722,10 @@ Wire Wire Line
 	14050 3650 14050 3500
 Wire Wire Line
 	14650 3400 14950 3400
-Connection ~ 14650 3400
 Text Label 14950 3400 0    50   ~ 0
 Current_ch2_out
 Wire Wire Line
 	11350 3500 11100 3500
-Connection ~ 11350 3500
-Connection ~ 11350 3100
 $Comp
 L Device:R R?
 U 1 1 5C71D6DA
@@ -1016,60 +928,463 @@ Connection ~ 9250 1450
 $Comp
 L power:+5V #PWR?
 U 1 1 5C7A725F
-P 1500 8600
-F 0 "#PWR?" H 1500 8450 50  0001 C CNN
-F 1 "+5V" V 1515 8728 50  0000 L CNN
-F 2 "" H 1500 8600 50  0001 C CNN
-F 3 "" H 1500 8600 50  0001 C CNN
-	1    1500 8600
+P 1550 9950
+F 0 "#PWR?" H 1550 9800 50  0001 C CNN
+F 1 "+5V" V 1565 10078 50  0000 L CNN
+F 2 "" H 1550 9950 50  0001 C CNN
+F 3 "" H 1550 9950 50  0001 C CNN
+	1    1550 9950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 5C7AA2DC
-P 1500 8900
-F 0 "#PWR?" H 1500 8750 50  0001 C CNN
-F 1 "+15V" V 1515 9028 50  0000 L CNN
-F 2 "" H 1500 8900 50  0001 C CNN
-F 3 "" H 1500 8900 50  0001 C CNN
-	1    1500 8900
+P 1550 10250
+F 0 "#PWR?" H 1550 10100 50  0001 C CNN
+F 1 "+15V" V 1565 10378 50  0000 L CNN
+F 2 "" H 1550 10250 50  0001 C CNN
+F 3 "" H 1550 10250 50  0001 C CNN
+	1    1550 10250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:-15V #PWR?
 U 1 1 5C7AA413
-P 1500 9000
-F 0 "#PWR?" H 1500 9100 50  0001 C CNN
-F 1 "-15V" V 1515 9128 50  0000 L CNN
-F 2 "" H 1500 9000 50  0001 C CNN
-F 3 "" H 1500 9000 50  0001 C CNN
-	1    1500 9000
+P 1550 10350
+F 0 "#PWR?" H 1550 10450 50  0001 C CNN
+F 1 "-15V" V 1565 10478 50  0000 L CNN
+F 2 "" H 1550 10350 50  0001 C CNN
+F 3 "" H 1550 10350 50  0001 C CNN
+	1    1550 10350
 	0    -1   -1   0   
 $EndComp
-Text Label 5400 8600 2    50   ~ 0
+Text Label 5450 9950 2    50   ~ 0
 Current_sensor_1
-Text Label 5400 8700 2    50   ~ 0
+Text Label 5450 10050 2    50   ~ 0
 Current_sensor_2
-Text Label 5400 8800 2    50   ~ 0
+Text Label 5450 10150 2    50   ~ 0
 Torque_pedal_in
-Text Label 1500 11600 2    50   ~ 0
+Text Label 1550 12950 2    50   ~ 0
 Current_ch_1_out
-Text Label 1500 11700 2    50   ~ 0
+Text Label 1550 13050 2    50   ~ 0
 Current_ch_2_out
-Text Label 1500 11800 2    50   ~ 0
+Text Label 1550 13150 2    50   ~ 0
 Torque_pedal_ADC
-Text Label 5400 11600 2    50   ~ 0
+Text Label 5450 12950 2    50   ~ 0
 DIG1
-Text Label 5400 11700 2    50   ~ 0
+Text Label 5450 13050 2    50   ~ 0
 DIG2
-Text Label 5400 11800 2    50   ~ 0
+Text Label 5450 13150 2    50   ~ 0
 DIG3
-Text Label 5400 11900 2    50   ~ 0
+Text Label 5450 13250 2    50   ~ 0
 DIG4
-Text Label 5400 12000 2    50   ~ 0
+Text Label 5450 13350 2    50   ~ 0
 DIG5
-Text Label 1500 8700 2    50   ~ 0
+Text Label 1550 10050 2    50   ~ 0
 5V_REF
-Text Label 1500 8800 2    50   ~ 0
+Text Label 1550 10150 2    50   ~ 0
 3V3_REF
+$Comp
+L Device:R R?
+U 1 1 5C707423
+P 4400 3100
+F 0 "R?" V 4193 3100 50  0000 C CNN
+F 1 "680R" V 4284 3100 50  0000 C CNN
+F 2 "" V 4330 3100 50  0001 C CNN
+F 3 "~" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 3100 4800 3100
+Wire Wire Line
+	4250 3100 4000 3100
+Connection ~ 4000 3100
+$Comp
+L Device:C C?
+U 1 1 5C70D056
+P 4800 3650
+F 0 "C?" H 4915 3696 50  0000 L CNN
+F 1 "1n" H 4915 3605 50  0000 L CNN
+F 2 "" H 4838 3500 50  0001 C CNN
+F 3 "~" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C712D71
+P 4800 2950
+F 0 "C?" H 4915 2996 50  0000 L CNN
+F 1 "1n" H 4915 2905 50  0000 L CNN
+F 2 "" H 4838 2800 50  0001 C CNN
+F 3 "~" H 4800 2950 50  0001 C CNN
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C715C4E
+P 4800 3800
+F 0 "#PWR?" H 4800 3550 50  0001 C CNN
+F 1 "GND" H 4805 3627 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C715D00
+P 4800 2800
+F 0 "#PWR?" H 4800 2550 50  0001 C CNN
+F 1 "GND" H 4805 2627 50  0000 C CNN
+F 2 "" H 4800 2800 50  0001 C CNN
+F 3 "" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C7239A7
+P 12150 3300
+F 0 "C?" H 12265 3346 50  0000 L CNN
+F 1 "10n" H 12265 3255 50  0000 L CNN
+F 2 "" H 12188 3150 50  0001 C CNN
+F 3 "~" H 12150 3300 50  0001 C CNN
+	1    12150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 3100 12150 3150
+Wire Wire Line
+	12150 3100 12850 3100
+Connection ~ 12150 3100
+Wire Wire Line
+	12850 3500 12150 3500
+Wire Wire Line
+	12150 3500 12150 3450
+$Comp
+L Device:R R?
+U 1 1 5C7239B3
+P 11750 3500
+F 0 "R?" V 11543 3500 50  0000 C CNN
+F 1 "680R" V 11634 3500 50  0000 C CNN
+F 2 "" V 11680 3500 50  0001 C CNN
+F 3 "~" H 11750 3500 50  0001 C CNN
+	1    11750 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11350 3500 11600 3500
+Wire Wire Line
+	11900 3500 12150 3500
+Connection ~ 12150 3500
+$Comp
+L Device:R R?
+U 1 1 5C7239BD
+P 11750 3100
+F 0 "R?" V 11543 3100 50  0000 C CNN
+F 1 "680R" V 11634 3100 50  0000 C CNN
+F 2 "" V 11680 3100 50  0001 C CNN
+F 3 "~" H 11750 3100 50  0001 C CNN
+	1    11750 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11900 3100 12150 3100
+Wire Wire Line
+	11600 3100 11350 3100
+$Comp
+L Device:C C?
+U 1 1 5C7239C6
+P 12150 3650
+F 0 "C?" H 12265 3696 50  0000 L CNN
+F 1 "1n" H 12265 3605 50  0000 L CNN
+F 2 "" H 12188 3500 50  0001 C CNN
+F 3 "~" H 12150 3650 50  0001 C CNN
+	1    12150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C7239CD
+P 12150 2950
+F 0 "C?" H 12265 2996 50  0000 L CNN
+F 1 "1n" H 12265 2905 50  0000 L CNN
+F 2 "" H 12188 2800 50  0001 C CNN
+F 3 "~" H 12150 2950 50  0001 C CNN
+	1    12150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7239D4
+P 12150 3800
+F 0 "#PWR?" H 12150 3550 50  0001 C CNN
+F 1 "GND" H 12155 3627 50  0000 C CNN
+F 2 "" H 12150 3800 50  0001 C CNN
+F 3 "" H 12150 3800 50  0001 C CNN
+	1    12150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7239DA
+P 12150 2800
+F 0 "#PWR?" H 12150 2550 50  0001 C CNN
+F 1 "GND" H 12155 2627 50  0000 C CNN
+F 2 "" H 12150 2800 50  0001 C CNN
+F 3 "" H 12150 2800 50  0001 C CNN
+	1    12150 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5C72DE8B
+P 12500 8150
+F 0 "U?" H 12458 8196 50  0000 L CNN
+F 1 "LM324" H 12458 8105 50  0000 L CNN
+F 2 "" H 12450 8250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 12550 8350 50  0001 C CNN
+	5    12500 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 5C72DE92
+P 12200 8250
+F 0 "#PWR?" H 12200 8100 50  0001 C CNN
+F 1 "+15V" H 12215 8423 50  0000 C CNN
+F 2 "" H 12200 8250 50  0001 C CNN
+F 3 "" H 12200 8250 50  0001 C CNN
+	1    12200 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-15V #PWR?
+U 1 1 5C72DE98
+P 12800 8250
+F 0 "#PWR?" H 12800 8350 50  0001 C CNN
+F 1 "-15V" H 12815 8423 50  0000 C CNN
+F 2 "" H 12800 8250 50  0001 C CNN
+F 3 "" H 12800 8250 50  0001 C CNN
+	1    12800 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C72DE9E
+P 12050 8700
+F 0 "C?" H 12165 8746 50  0000 L CNN
+F 1 "0.1u" H 12165 8655 50  0000 L CNN
+F 2 "" H 12088 8550 50  0001 C CNN
+F 3 "~" H 12050 8700 50  0001 C CNN
+	1    12050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C72DEA5
+P 11700 8700
+F 0 "C?" H 11815 8746 50  0000 L CNN
+F 1 "10u" H 11815 8655 50  0000 L CNN
+F 2 "" H 11738 8550 50  0001 C CNN
+F 3 "~" H 11700 8700 50  0001 C CNN
+	1    11700 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 8550 12050 8550
+Wire Wire Line
+	11700 8850 12050 8850
+$Comp
+L power:GND #PWR?
+U 1 1 5C72DEAE
+P 11700 8850
+F 0 "#PWR?" H 11700 8600 50  0001 C CNN
+F 1 "GND" H 11705 8677 50  0000 C CNN
+F 2 "" H 11700 8850 50  0001 C CNN
+F 3 "" H 11700 8850 50  0001 C CNN
+	1    11700 8850
+	1    0    0    -1  
+$EndComp
+Connection ~ 11700 8850
+$Comp
+L Device:C C?
+U 1 1 5C72DEB5
+P 13300 8700
+F 0 "C?" H 13415 8746 50  0000 L CNN
+F 1 "10u" H 13415 8655 50  0000 L CNN
+F 2 "" H 13338 8550 50  0001 C CNN
+F 3 "~" H 13300 8700 50  0001 C CNN
+	1    13300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C72DEBC
+P 13300 8850
+F 0 "#PWR?" H 13300 8600 50  0001 C CNN
+F 1 "GND" H 13305 8677 50  0000 C CNN
+F 2 "" H 13300 8850 50  0001 C CNN
+F 3 "" H 13300 8850 50  0001 C CNN
+	1    13300 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C72DEC2
+P 12950 8700
+F 0 "C?" H 13065 8746 50  0000 L CNN
+F 1 "0.1u" H 13065 8655 50  0000 L CNN
+F 2 "" H 12988 8550 50  0001 C CNN
+F 3 "~" H 12950 8700 50  0001 C CNN
+	1    12950 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 8550 13300 8550
+Wire Wire Line
+	12950 8850 13300 8850
+Connection ~ 13300 8850
+Wire Wire Line
+	12050 8550 12200 8550
+Wire Wire Line
+	12200 8550 12200 8250
+Connection ~ 12050 8550
+Connection ~ 12200 8250
+Wire Wire Line
+	12950 8550 12800 8550
+Wire Wire Line
+	12800 8550 12800 8250
+Connection ~ 12950 8550
+Connection ~ 12800 8250
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5C73D7CC
+P 12600 10450
+F 0 "U?" H 12600 10817 50  0000 C CNN
+F 1 "LM324" H 12600 10726 50  0000 C CNN
+F 2 "" H 12550 10550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 12650 10650 50  0001 C CNN
+	1    12600 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 10450 12900 10800
+Wire Wire Line
+	12900 10800 12300 10800
+Wire Wire Line
+	12300 10800 12300 10550
+$Comp
+L Device:R R?
+U 1 1 5C746104
+P 13200 10450
+F 0 "R?" V 12993 10450 50  0000 C CNN
+F 1 "220R" V 13084 10450 50  0000 C CNN
+F 2 "" V 13130 10450 50  0001 C CNN
+F 3 "~" H 13200 10450 50  0001 C CNN
+	1    13200 10450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C74629E
+P 13550 10600
+F 0 "C?" H 13665 10646 50  0000 L CNN
+F 1 "100n" H 13665 10555 50  0000 L CNN
+F 2 "" H 13588 10450 50  0001 C CNN
+F 3 "~" H 13550 10600 50  0001 C CNN
+	1    13550 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74A68D
+P 11750 10500
+F 0 "R?" H 11820 10546 50  0000 L CNN
+F 1 "10k" H 11820 10455 50  0000 L CNN
+F 2 "" V 11680 10500 50  0001 C CNN
+F 3 "~" H 11750 10500 50  0001 C CNN
+	1    11750 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C74C667
+P 11750 10000
+F 0 "R?" H 11820 10046 50  0000 L CNN
+F 1 "10k" H 11820 9955 50  0000 L CNN
+F 2 "" V 11680 10000 50  0001 C CNN
+F 3 "~" H 11750 10000 50  0001 C CNN
+	1    11750 10000
+	1    0    0    -1  
+$EndComp
+Text Label 11750 9750 2    50   ~ 0
+3V3_REF
+Wire Wire Line
+	11750 9850 11750 9750
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5C78DB94
+P 13650 4150
+F 0 "U?" H 13650 4517 50  0000 C CNN
+F 1 "LM324" H 13650 4426 50  0000 C CNN
+F 2 "" H 13600 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 13700 4350 50  0001 C CNN
+	3    13650 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5C7949F2
+P 14350 3400
+F 0 "U?" H 14350 3767 50  0000 C CNN
+F 1 "LM324" H 14350 3676 50  0000 C CNN
+F 2 "" H 14300 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 14400 3600 50  0001 C CNN
+	4    14350 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 14650 3400
+Text Label 11750 10350 2    50   ~ 0
+Torque_pedal_in
+Wire Wire Line
+	11750 10150 11750 10350
+Wire Wire Line
+	11750 10350 12300 10350
+Connection ~ 11750 10350
+Wire Wire Line
+	12900 10450 13050 10450
+Connection ~ 12900 10450
+Wire Wire Line
+	13350 10450 13550 10450
+Wire Wire Line
+	13550 10450 13800 10450
+Connection ~ 13550 10450
+$Comp
+L power:GND #PWR?
+U 1 1 5C7B862A
+P 13550 10750
+F 0 "#PWR?" H 13550 10500 50  0001 C CNN
+F 1 "GND" H 13555 10577 50  0000 C CNN
+F 2 "" H 13550 10750 50  0001 C CNN
+F 3 "" H 13550 10750 50  0001 C CNN
+	1    13550 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7B8703
+P 11750 10650
+F 0 "#PWR?" H 11750 10400 50  0001 C CNN
+F 1 "GND" H 11755 10477 50  0000 C CNN
+F 2 "" H 11750 10650 50  0001 C CNN
+F 3 "" H 11750 10650 50  0001 C CNN
+	1    11750 10650
+	1    0    0    -1  
+$EndComp
+Text Label 13800 10450 0    50   ~ 0
+Torque_pedal_ADC
 $EndSCHEMATC
