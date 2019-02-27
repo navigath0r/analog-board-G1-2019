@@ -257,27 +257,27 @@ $EndComp
 Text Label 1450 4800 0    50   ~ 0
 Current_sensor_1
 $Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C6FEAFE
+L Amplifier_Operational:LM324 U1
+U 2 1 5C6FEAFE
 P 4950 6000
-F 0 "U?" H 4950 6367 50  0000 C CNN
+F 0 "U1" H 4950 6367 50  0000 C CNN
 F 1 "LM324" H 4950 6276 50  0000 C CNN
 F 2 "" H 4900 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5000 6200 50  0001 C CNN
-	1    4950 6000
+	2    4950 6000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5250 6100 5250 6350
 $Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5C7012E7
+L Amplifier_Operational:LM324 U1
+U 1 1 5C7012E7
 P 6350 4700
-F 0 "U?" H 6350 5067 50  0000 C CNN
+F 0 "U1" H 6350 5067 50  0000 C CNN
 F 1 "LM324" H 6350 4976 50  0000 C CNN
 F 2 "" H 6300 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6400 4900 50  0001 C CNN
-	2    6350 4700
+	1    6350 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -602,10 +602,10 @@ Wire Wire Line
 Wire Wire Line
 	12600 4900 12600 5150
 $Comp
-L Amplifier_Operational:LM324 U?
+L Amplifier_Operational:LM324 U1
 U 5 1 5C746485
 P 4450 950
-F 0 "U?" H 4408 996 50  0000 L CNN
+F 0 "U1" H 4408 996 50  0000 L CNN
 F 1 "LM324" H 4408 905 50  0000 L CNN
 F 2 "" H 4400 1050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4500 1150 50  0001 C CNN
@@ -936,14 +936,14 @@ F 3 "" H 14650 4100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C73D7CC
+L Amplifier_Operational:LM324 U1
+U 4 1 5C73D7CC
 P 14650 12300
-F 0 "U?" H 14650 12667 50  0000 C CNN
+F 0 "U1" H 14650 12667 50  0000 C CNN
 F 1 "LM324" H 14650 12576 50  0000 C CNN
 F 2 "" H 14600 12400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 14700 12500 50  0001 C CNN
-	1    14650 12300
+	4    14650 12300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1001,25 +1001,25 @@ Text Label 13800 11600 2    50   ~ 0
 Wire Wire Line
 	13800 11700 13800 11600
 $Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5C78DB94
+L Amplifier_Operational:LM324 U2
+U 2 1 5C78DB94
 P 16150 6000
-F 0 "U?" H 16150 6367 50  0000 C CNN
+F 0 "U2" H 16150 6367 50  0000 C CNN
 F 1 "LM324" H 16150 6276 50  0000 C CNN
 F 2 "" H 16100 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 16200 6200 50  0001 C CNN
-	3    16150 6000
+	2    16150 6000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5C7949F2
+L Amplifier_Operational:LM324 U2
+U 1 1 5C7949F2
 P 17550 4700
-F 0 "U?" H 17550 5067 50  0000 C CNN
+F 0 "U2" H 17550 5067 50  0000 C CNN
 F 1 "LM324" H 17550 4976 50  0000 C CNN
 F 2 "" H 17500 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 17600 4900 50  0001 C CNN
-	4    17550 4700
+	1    17550 4700
 	1    0    0    -1  
 $EndComp
 Text Label 13800 12200 2    50   ~ 0
@@ -1297,14 +1297,14 @@ Wire Wire Line
 	7250 5800 6900 5800
 Connection ~ 7250 5800
 $Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C7A4403
+L Amplifier_Operational:LM324 U1
+U 3 1 5C7A4403
 P 6600 5900
-F 0 "U?" H 6600 6267 50  0000 C CNN
+F 0 "U1" H 6600 6267 50  0000 C CNN
 F 1 "LM324" H 6600 6176 50  0000 C CNN
 F 2 "" H 6550 6000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6650 6100 50  0001 C CNN
-	1    6600 5900
+	3    6600 5900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1320,10 +1320,10 @@ Wire Wire Line
 Connection ~ 3650 1650
 Connection ~ 17850 4700
 $Comp
-L Amplifier_Operational:LM324 U?
+L Amplifier_Operational:LM324 U2
 U 5 1 5C80F4D6
 P 15700 950
-F 0 "U?" H 15658 996 50  0000 L CNN
+F 0 "U2" H 15658 996 50  0000 L CNN
 F 1 "LM324" H 15658 905 50  0000 L CNN
 F 2 "" H 15650 1050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 15750 1150 50  0001 C CNN
@@ -1533,14 +1533,14 @@ Wire Wire Line
 	18450 5800 18100 5800
 Connection ~ 18450 5800
 $Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C873DA1
+L Amplifier_Operational:LM324 U2
+U 3 1 5C873DA1
 P 17800 5900
-F 0 "U?" H 17800 6267 50  0000 C CNN
+F 0 "U2" H 17800 6267 50  0000 C CNN
 F 1 "LM324" H 17800 6176 50  0000 C CNN
 F 2 "" H 17750 6000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 17850 6100 50  0001 C CNN
-	1    17800 5900
+	3    17800 5900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
