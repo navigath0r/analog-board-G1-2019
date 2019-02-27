@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 22-04-1031
+D Header 2.5mm WTB,vert, friction ramp, 3w Molex KK Series, Series Number 5045, 2.5mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A
+K
+F http://www.molex.com/pdm_docs/sd/022041031_sd.pdf
+$ENDCMP
+#
+#End Doc Library
