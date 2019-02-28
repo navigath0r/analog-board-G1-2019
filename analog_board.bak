@@ -258,13 +258,13 @@ Text Label 1450 4800 0    50   ~ 0
 Current_sensor_1
 $Comp
 L Amplifier_Operational:LM324 U1
-U 1 1 5C6FEAFE
+U 2 1 5C6FEAFE
 P 4950 6000
 F 0 "U1" H 4950 6367 50  0000 C CNN
 F 1 "LM324" H 4950 6276 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4900 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5000 6200 50  0001 C CNN
-	1    4950 6000
+	2    4950 6000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -459,8 +459,6 @@ Wire Wire Line
 	15650 4900 15650 5200
 Text Label 12650 4800 0    50   ~ 0
 Current_sensor_2
-Wire Wire Line
-	16450 6100 16450 6350
 Text Label 17500 4600 0    50   ~ 0
 Current_ch2_out
 Wire Wire Line
@@ -905,17 +903,6 @@ Text Label 13800 11600 2    50   ~ 0
 3V3_REF
 Wire Wire Line
 	13800 11700 13800 11600
-$Comp
-L Amplifier_Operational:LM324 U1
-U 2 1 5C78DB94
-P 16150 6000
-F 0 "U1" H 16150 6367 50  0000 C CNN
-F 1 "LM324" H 16150 6276 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 16100 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 16200 6200 50  0001 C CNN
-	2    16150 6000
-	-1   0    0    -1  
-$EndComp
 Text Label 13800 12200 2    50   ~ 0
 Torque_pedal_in
 Wire Wire Line
@@ -960,11 +947,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 6350 5250 6350
 Connection ~ 4650 6000
-Wire Wire Line
-	15850 6000 15850 6350
-Wire Wire Line
-	15850 6350 16450 6350
-Connection ~ 15850 6000
 $Comp
 L Device:R R6
 U 1 1 5C775C08
@@ -1102,8 +1084,6 @@ Text Label 6500 5450 0    50   ~ 0
 3V3_REF
 Wire Wire Line
 	4650 4900 4650 6000
-Wire Wire Line
-	15850 4900 15850 6000
 Connection ~ 3650 1650
 $Comp
 L Device:R R7
@@ -1156,104 +1136,11 @@ F 3 "" H 5400 6200 50  0001 C CNN
 	1    5400 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Reference_Voltage:LM385Z-1.2 D2
-U 1 1 5C873D8A
-P 17700 6150
-F 0 "D2" V 17746 6062 50  0000 R CNN
-F 1 "LM385Z-1.2" V 17655 6062 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 17700 5950 50  0001 C CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF" H 17700 6150 50  0001 C CIN
-	1    17700 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0138
-U 1 1 5C873D91
-P 17700 6400
-F 0 "#PWR0138" H 17700 6150 50  0001 C CNN
-F 1 "GND" H 17705 6227 50  0000 C CNN
-F 2 "" H 17700 6400 50  0001 C CNN
-F 3 "" H 17700 6400 50  0001 C CNN
-	1    17700 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R25
-U 1 1 5C873D97
-P 17700 5600
-F 0 "R25" H 17770 5646 50  0000 L CNN
-F 1 "3k3" H 17770 5555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 17630 5600 50  0001 C CNN
-F 3 "~" H 17700 5600 50  0001 C CNN
-	1    17700 5600
-	1    0    0    -1  
-$EndComp
-Text Label 17700 5450 0    50   ~ 0
-3V3_REF
-$Comp
-L Device:R R21
-U 1 1 5C873DAB
-P 16600 6050
-F 0 "R21" H 16670 6096 50  0000 L CNN
-F 1 "1k" H 16670 6005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 16530 6050 50  0001 C CNN
-F 3 "~" H 16600 6050 50  0001 C CNN
-	1    16600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 5C873DB2
-P 17250 5900
-F 0 "R23" H 17320 5946 50  0000 L CNN
-F 1 "1k" H 17320 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 17180 5900 50  0001 C CNN
-F 3 "~" H 17250 5900 50  0001 C CNN
-	1    17250 5900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 5C873DB9
-P 16850 5900
-F 0 "R22" H 16920 5946 50  0000 L CNN
-F 1 "470R" H 16920 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 16780 5900 50  0001 C CNN
-F 3 "~" H 16850 5900 50  0001 C CNN
-	1    16850 5900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	17100 5900 17000 5900
-Wire Wire Line
-	16450 5900 16600 5900
-Wire Wire Line
-	16600 5900 16700 5900
-Connection ~ 16600 5900
-$Comp
-L power:GND #PWR0139
-U 1 1 5C873DC6
-P 16600 6200
-F 0 "#PWR0139" H 16600 5950 50  0001 C CNN
-F 1 "GND" H 16605 6027 50  0000 C CNN
-F 2 "" H 16600 6200 50  0001 C CNN
-F 3 "" H 16600 6200 50  0001 C CNN
-	1    16600 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 6000 6500 5900
 Wire Wire Line
 	6500 5900 6500 5750
 Connection ~ 6500 5900
-Wire Wire Line
-	17400 5900 17700 5900
-Wire Wire Line
-	17700 5900 17700 5750
-Wire Wire Line
-	17700 6000 17700 5900
-Connection ~ 17700 5900
 Wire Wire Line
 	6200 5900 6500 5900
 Wire Wire Line
@@ -1377,11 +1264,14 @@ NoConn ~ 1550 13050
 NoConn ~ 1550 13150
 NoConn ~ 1550 13250
 NoConn ~ 1550 13350
-Wire Wire Line
-	17700 6400 17700 6300
 Connection ~ 5700 4600
 Wire Wire Line
 	17500 4600 16900 4600
 NoConn ~ 2750 10050
-NoConn ~ 8150 4500
+Text Label 4650 5100 0    50   ~ 0
+amp_ref
+Text Label 15850 5100 0    50   ~ 0
+amp_ref
+Wire Wire Line
+	15850 4900 15850 5100
 $EndSCHEMATC
