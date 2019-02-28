@@ -254,7 +254,7 @@ F 8 "Conn Unshrouded Header HDR 10 POS 2.54mm Solder ST Thru-Hole" H 5650 12950 
 	1    5650 12950
 	1    0    0    -1  
 $EndComp
-Text Label 1450 4800 0    50   ~ 0
+Text Label 850  4800 0    50   ~ 0
 Current_sensor_1
 $Comp
 L Amplifier_Operational:LM324 U1
@@ -270,8 +270,8 @@ $EndComp
 Wire Wire Line
 	5250 6100 5250 6350
 Wire Wire Line
-	6300 4600 5700 4600
-Text Label 6300 4600 0    50   ~ 0
+	6900 4600 6300 4600
+Text Label 6900 4600 0    50   ~ 0
 Current_ch1_out
 Wire Wire Line
 	2650 4800 2400 4800
@@ -309,14 +309,11 @@ Wire Wire Line
 	2400 4400 2650 4400
 Wire Wire Line
 	2150 4750 2150 4800
-Connection ~ 2150 4800
 Wire Wire Line
 	2400 4750 2400 4800
 Connection ~ 2400 4800
 Wire Wire Line
 	2400 4800 2150 4800
-Wire Wire Line
-	1400 4800 2150 4800
 $Comp
 L Amplifier_Instrumentation:AD620 U4
 U 1 1 5C71D615
@@ -1264,7 +1261,6 @@ NoConn ~ 1550 13050
 NoConn ~ 1550 13150
 NoConn ~ 1550 13250
 NoConn ~ 1550 13350
-Connection ~ 5700 4600
 Wire Wire Line
 	17500 4600 16900 4600
 NoConn ~ 2750 10050
@@ -1274,4 +1270,34 @@ Text Label 15850 5100 0    50   ~ 0
 amp_ref
 Wire Wire Line
 	15850 4900 15850 5100
+$Comp
+L Device:R R10
+U 1 1 5C792D0B
+P 1850 4800
+F 0 "R10" V 1643 4800 50  0000 C CNN
+F 1 "0R" V 1734 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1780 4800 50  0001 C CNN
+F 3 "~" H 1850 4800 50  0001 C CNN
+	1    1850 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  4800 1700 4800
+Wire Wire Line
+	2000 4800 2150 4800
+Connection ~ 2150 4800
+$Comp
+L Device:R R21
+U 1 1 5C7A1976
+P 6150 4600
+F 0 "R21" V 5943 4600 50  0000 C CNN
+F 1 "0R" V 6034 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6080 4600 50  0001 C CNN
+F 3 "~" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 4600 6000 4600
+Connection ~ 5700 4600
 $EndSCHEMATC
