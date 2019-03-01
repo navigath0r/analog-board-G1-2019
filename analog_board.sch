@@ -1158,12 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 10050 1550 10150
 Connection ~ 1550 10050
-Wire Wire Line
-	1550 10150 1550 10250
 Connection ~ 1550 10150
-Wire Wire Line
-	1550 10250 1550 10350
-Connection ~ 1550 10250
 $Comp
 L power:GND #PWR0105
 U 1 1 5C93E8CE
@@ -1175,7 +1170,6 @@ F 3 "" H 1550 10350 50  0001 C CNN
 	1    1550 10350
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 10350
 $Comp
 L power:GND #PWR0106
 U 1 1 5C93F640
@@ -1354,7 +1348,7 @@ Wire Wire Line
 	4750 1150 4750 1050
 Connection ~ 4750 1050
 Wire Wire Line
-	4750 1450 4750 1600
+	4750 1450 4750 1500
 $Comp
 L Device:R R25
 U 1 1 5C7CD4AE
@@ -1370,4 +1364,26 @@ Wire Wire Line
 	13800 11700 13800 11600
 Wire Wire Line
 	13800 11300 13800 11200
+Wire Wire Line
+	1550 10150 1550 10250
+Wire Wire Line
+	1550 10250 1550 10350
+Connection ~ 1550 10250
+Connection ~ 1550 10350
+Text Label 13800 11700 2    50   ~ 0
+3V3_REF
+$Comp
+L power:-15V #PWR?
+U 1 1 5C7C6022
+P 4750 1500
+F 0 "#PWR?" H 4750 1600 50  0001 C CNN
+F 1 "-15V" H 4765 1673 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 4750 1500
+Wire Wire Line
+	4750 1500 4750 1600
 $EndSCHEMATC
