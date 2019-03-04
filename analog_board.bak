@@ -1348,7 +1348,7 @@ Wire Wire Line
 	4750 1150 4750 1050
 Connection ~ 4750 1050
 Wire Wire Line
-	4750 1450 4750 1600
+	4750 1450 4750 1500
 $Comp
 L Device:R R25
 U 1 1 5C7CD4AE
@@ -1372,4 +1372,18 @@ Connection ~ 1550 10250
 Connection ~ 1550 10350
 Text Label 13800 11700 2    50   ~ 0
 3V3_REF
+$Comp
+L power:-15V #PWR?
+U 1 1 5C7C6022
+P 4750 1500
+F 0 "#PWR?" H 4750 1600 50  0001 C CNN
+F 1 "-15V" H 4765 1673 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	0    1    1    0   
+$EndComp
+Connection ~ 4750 1500
+Wire Wire Line
+	4750 1500 4750 1600
 $EndSCHEMATC
